@@ -1,0 +1,33 @@
+# Python build artifacts and local virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+*.log
+
+# OS and editor metadata
+.DS_Store
+.idea/
+.vscode/
+
+# Local credentials and environment values
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Never publish generated, private AI Cycle workspaces
+.ai-cycle/
+.specify/
+specs/
+reviews/
+
+# Locally exported archives
+*.zip
